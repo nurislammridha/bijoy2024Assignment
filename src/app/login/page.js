@@ -75,10 +75,12 @@ const Login = () => {
                 </div>
                 <div className='mt3'>
                     <span>Don't have an account? </span>
-                    <a href
+                    <a
                         className='cp'
                         onClick={() => router.push('/sign-up')}
-                    > Sign Up</a>
+                    > Sign Up
+
+                    </a>
                 </div>
             </div>
         </div>
