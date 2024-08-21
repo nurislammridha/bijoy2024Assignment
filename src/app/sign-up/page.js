@@ -74,7 +74,7 @@ const SignUp = () => {
                     className='mt40 sign_up_btn cp'
                     onClick={() => handleSignUp({ name, email, zip, password, cPassword })}
                 >
-                    <a href
+                    <a
                     >
                         Sign Up
                     </a>
@@ -82,7 +82,7 @@ const SignUp = () => {
 
                 <div className='mt32'>
                     <span>Already have an account? </span>
-                    <a href
+                    <a
                         className='cp'
                         onClick={() => router.push('/login')}
                     >
