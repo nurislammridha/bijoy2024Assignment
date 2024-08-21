@@ -74,7 +74,7 @@ const Login = () => {
                     </div>
                 </div>
                 <div className='mt3'>
-                    <span>Don't have an account? </span>
+                    <span>Do not have an account? </span>
                     <a
                         className='cp'
                         onClick={() => router.push('/sign-up')}
